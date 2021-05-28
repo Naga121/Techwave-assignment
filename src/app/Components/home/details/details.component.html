@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="media">
+            <img class="align-self-end m-3" src="http://localhost:8090/{{record.image}}" alt="Generic placeholder image">
+            <div class="media-body">
+              <h4 class="m-2">{{record.name | uppercase}}</h4>
+              <small class="mt-2"> By : {{record.author}} (Author)</small>
+              <h1 class="mt-2">{{record.price |currency:'INR' }}</h1>
+              <h2>pages ( {{record.pages}} )</h2>
+              <button type="button" class="btn btn-danger mt-5"> Buy Now</button>
+              <button type="submit" class="btn btn-success ml-3 mt-5">Add Cart</button>
+            </div>
+            <h1 style="margin-top: 550px;margin-left: -450px; font-size: larger;color: rgb(240, 17, 17);">About the Book </h1> 
+        </div>
+        <div class="col">
+            <p style="position: relative;top: 600px;"> {{record.Description}}</p> 
+       </div>
+        
+    </div>
+   
+</div>

@@ -1,0 +1,14 @@
+.jumbotron{
+    text-align: center;
+    color: red;
+}
+.jumbotron h3{
+    margin-top: 10px ;
+}
+.jumbotron p{
+    color: rgb(228, 79, 79);
+    font-size: 20px;
+}
+#services{
+    overflow: hidden;
+} 

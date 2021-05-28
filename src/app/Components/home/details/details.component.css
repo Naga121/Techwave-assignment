@@ -1,0 +1,13 @@
+
+.media img{
+    padding: 30px;
+    margin-top: 250px;
+}
+.media-body{
+    margin-top: 250px;
+    margin-left: -20px;
+    font-size: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(83, 80, 80);
+   top: 10px;
+}
